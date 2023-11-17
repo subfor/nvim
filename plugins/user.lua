@@ -29,6 +29,32 @@ return {
 
         end,
     },
+  -- {
+  --   'akinsho/bufferline.nvim',
+  --   config = function()
+  --       require('goto-preview').setup {
+  --          options = {
+  --             --mode = "tabs",
+  --             always_show_bufferline = true,
+  --             show_buffer_close_icons = true,
+  --             color_icons = true,
+  --             indicator = {
+  --               icon = " 喇",
+  --               style = "icon"
+  --             },
+  --             close_icon = '',
+  --             diagnostics = "nvim_lsp",
+  --               separator_style =  "slant" ,
+  --             show_tab_indicators = true,
+  --             buffer_close_icon = "窱",
+  --             diagnostics_indicator = function(count, level)
+  --                 local icon = level:match("error") and " " or ""
+  --                 return " " .. icon .. count
+  --             end
+  --         }
+  --       }
+  --   end,
+  -- },
   "andweeb/presence.nvim",
   {
     "ray-x/lsp_signature.nvim",
