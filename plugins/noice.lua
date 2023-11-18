@@ -21,6 +21,7 @@ return {
             ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
             ["vim.lsp.util.stylize_markdown"] = true,
             ["cmp.entry.get_documentation"] = true,
+            -- ["config.lsp.signature.enabled"] = false,
           },
         },
         views = {
@@ -62,7 +63,9 @@ return {
         -- },
       })
     end,
-    init = function() vim.g.lsp_handlers_enabled = false end,
+    init = function() 
+      vim.g.lsp_handlers_enabled = false 
+    end,
   },
   {
     "folke/edgy.nvim",
