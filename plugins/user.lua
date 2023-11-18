@@ -59,13 +59,13 @@ return {
                   padding = { 0, 1 },
                 },
                 win_options = {
-                  winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
+                  winhighlight = { "NormalFloat:NormalFloat,FloatBorder:FloatBorder" },
                 },
               },
-            },
-          }
+          },
+        }
     end,
-  },
+  }, 
   "andweeb/presence.nvim",
   {
     "ray-x/lsp_signature.nvim",
