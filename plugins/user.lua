@@ -32,7 +32,7 @@ return {
   {
     'folke/noice.nvim',
     config = function()
-        require('goto-preview').setup {
+        require('folke/noice.nvim').setup {
           views = {
               cmdline_popup = {
                 position = {
