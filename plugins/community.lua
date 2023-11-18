@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
-  -- { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- { import = "astrocommunity.color.twilight-nvim" },
   
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
