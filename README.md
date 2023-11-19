@@ -32,7 +32,8 @@ git clone https://github.com/subfor/nvim ~/.config/nvim/lua/user
 #### chatGPT
 
 ```shell
-Set environment variable called $OPENAI_API_KEY which you can obtain here: https://platform.openai.com/account/api-keys
+Set environment variable called $OPENAI_API_KEY 
+which you can obtain here: https://platform.openai.com/account/api-keys
 ```
 
 
