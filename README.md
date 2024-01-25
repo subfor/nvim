@@ -22,7 +22,14 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 Press the "Use this template" button above to create a new repository to store your user configuration.
 
 You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
+apt-get install build-essential
+apt install npm
 
+wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
+tar xzvf nvim-linux64.tar.gz
+nano .bashrc
+source .bashrc
+alias nvim='/root/nvim-linux64/bin/nvim'
 #### Clone the repository
 
 ```shell
